@@ -34,7 +34,7 @@ body {
     grid-template: 25px / 40px 1fr;
     align-content: center;
 }
-#search-label {
+#search-button {
     display: flex;
     align-items: center;
 }
@@ -42,6 +42,7 @@ body {
     max-width: 600px;
     height: 25px;
     background-color: #e0e6ef;
+    padding: 0 12px;
     border-radius: 20px;
     border: none;
 }
