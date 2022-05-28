@@ -227,4 +227,17 @@ body {
     background-color: #fff;
     border-radius: 7px;
     padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 22px 1fr 22px 1fr;
+}
+.announcements .divider {
+    background-color: #000;
+    margin: 10px 0;
+    height: 2px;
+}
+.announcements .announcement-title {
+    margin: 0 0 2px 0;
+}
+.announcements .info {
+    margin: 0;
 }
