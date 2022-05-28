@@ -14,7 +14,6 @@ body {
     grid-template: 160px 1fr / 270px 1fr;
 }
 
-
 .header {
     padding: 5px 60px 5px 40px;
     grid-area: 1/2;
@@ -109,7 +108,6 @@ body {
     cursor: pointer;
 }
 
-
 .sidebar {
     background-color: var(--main-color);
     color: #fff;
@@ -151,8 +149,6 @@ body {
     gap: 10px;
 }
 
-
-
 .main-content {
     background-color: #e0e6ef;
     padding: 20px;
@@ -174,7 +170,6 @@ body {
     font-family: var(--font);
     letter-spacing: 0.5px;
 }
-
 .projects .card {
     background-color: #fff;
     border-radius: 7px;
@@ -212,8 +207,6 @@ body {
 .card .buttons input {
     width: 20px;
 }
-
-
 .announcements .title {
     font-size: 22px;
     font-family: var(--font);
@@ -253,7 +246,6 @@ body {
     letter-spacing: 0.5px;
     margin: 0;
 }
-
 .trending .title {
     font-size: 22px;
     font-family: var(--font);
