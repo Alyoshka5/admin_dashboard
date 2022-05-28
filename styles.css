@@ -221,23 +221,30 @@ body {
     font-size: 22px;
     font-family: var(--font);
     letter-spacing: 0.5px;
-    margin: 5px 0;
+    margin: 12px 0 9px 0;
 }
 .announcements .main {
     background-color: #fff;
     border-radius: 7px;
-    padding: 20px;
+    padding: 25px;
     display: grid;
-    grid-template-rows: 1fr 22px 1fr 22px 1fr;
+    grid-template-rows: auto 2px auto 2px auto;
+    gap: 20px;
 }
 .announcements .divider {
-    background-color: #000;
-    margin: 10px 0;
+    background-color: #d6d5d5;
     height: 2px;
 }
 .announcements .announcement-title {
+    font-size: 15px;
+    font-family: var(--font);
+    letter-spacing: 0.5px;
     margin: 0 0 2px 0;
 }
 .announcements .info {
+    color: #606060;
+    font-size: 12px;
+    font-family: var(--font);
+    letter-spacing: 0.5px;
     margin: 0;
 }
