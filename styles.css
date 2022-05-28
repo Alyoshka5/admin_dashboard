@@ -158,7 +158,7 @@ body {
     padding: 20px;
     grid-area: 2/2;
     display: grid;
-    grid-template: 1.2fr 1fr / 1fr 300px;
+    grid-template: auto auto / 1fr 300px;
     gap: 20px;
 }
 .trending {
@@ -226,10 +226,20 @@ body {
 .announcements .main {
     background-color: #fff;
     border-radius: 7px;
-    padding: 25px;
+    padding: 20px;
     display: grid;
     grid-template-rows: auto 2px auto 2px auto;
-    gap: 20px;
+    /* gap: 20px; */
+}
+.announcements .section {
+    padding: 15px 10px;
+    
+}
+.announcements .section:first-child {border-radius: 7px 7px 0 0;}
+.announcements .section:last-child {border-radius: 0 0 7px 7px;}
+.announcements .section:hover {
+    cursor: pointer;
+    background-color: #ededed;
 }
 .announcements .divider {
     background-color: #d6d5d5;
@@ -246,5 +256,28 @@ body {
     font-size: 12px;
     font-family: var(--font);
     letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.trending .main {
+    background-color: #fff;
+    padding: 20px;
+    display: grid;
+    gap: 25px;
+}
+.trending .user {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 15px;
+}
+.trending img {
+    height: 50px;
+}
+.trending .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.trending p {
     margin: 0;
 }
